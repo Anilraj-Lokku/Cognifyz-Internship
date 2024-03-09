@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Card with Bulma</title>
+  <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+  />
+  <style>
+   /* Custom CSS for additional styling */
+   .custom-card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure overflow is hidden to prevent image overflow */
+   }
+
+   .custom-card:hover {
+    transform: translateY(-5px); /* Add translation effect on hover */
+   }
+
+   /* Custom background color */
+   .custom-bg {
+    background-color: #f3f4f6; /* You can change the color code as needed */
+   }
+  </style>
+ </head>
+ <body>
+  <h1 class="title is-3 has-text-centered">
+   Used a front-end framework like Bulma to create a responsive card component
+   with an image and text.
+  </h1>
+  <div class="container">
+   <div class="columns is-centered">
+    <div class="column is-one-third">
+     <div class="card custom-card custom-bg">
+      <!-- Added custom-bg class -->
+      <div class="card-image">
+       <figure class="image is-4by3">
+        <img src="Luffy.png" alt="Placeholder image" />
+       </figure>
+      </div>
+      <div class="card-content">
+       <div class="content">
+        <p class="title is-4">Card Title</p>
+        <p>
+         About Luffy - Monkey D. Luffy is the main protagonist of the popular
+         manga and anime series One Piece, created by Eiichiro Oda. Luffy is a
+         young pirate with the goal of finding the legendary One Piece treasure
+         and becoming the Pirate King. He sets out on his journey after eating
+         the Gum-Gum Fruit, a Devil Fruit that gives him the ability to stretch
+         his body like rubber but also renders him unable to swim.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

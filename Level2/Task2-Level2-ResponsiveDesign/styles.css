@@ -1,0 +1,108 @@
+/* Base styles */
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: pink;
+}
+
+header {
+ background-color: #333;
+ color: white;
+ text-align: center;
+ padding: 20px 0;
+}
+
+section {
+ padding: 20px;
+ margin: 20px;
+ background-color: #f7f7f7;
+ text-align: center;
+}
+
+form {
+ max-width: 400px;
+ margin: 20px auto;
+ padding: 20px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+label {
+ display: block;
+ margin-bottom: 10px;
+}
+
+input[type="text"] {
+ width: calc(100% - 22px);
+ padding: 10px;
+ margin-bottom: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+button {
+ background-color: #007bff;
+ color: #fff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #0056b3;
+}
+
+nav {
+ background-color: rgb(227, 13, 49);
+ text-align: center;
+ padding: 10px 0;
+}
+
+nav ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+nav ul li {
+ display: inline;
+ margin-right: 20px;
+}
+
+nav ul li a {
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+}
+
+nav ul li a:hover {
+ color: #333;
+}
+
+/* Adjust image size */
+img {
+ max-width: 100%; /* Make image responsive */
+ height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+ header {
+  padding: 10px 0;
+ }
+
+ section {
+  margin: 10px;
+ }
+
+ nav ul li {
+  display: block;
+  margin: 10px 0;
+ }
+
+ form {
+  max-width: 300px;
+ }
+}

@@ -1,0 +1,17 @@
+body {
+ background-color: #f0f0f0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+}
+
+button {
+ padding: 10px 20px;
+ font-size: 16px;
+ background-color: rgb(212, 86, 107);
+ color: white;
+ border: none;
+ cursor: pointer;
+}

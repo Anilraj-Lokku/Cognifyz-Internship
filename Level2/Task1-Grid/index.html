@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic Responsive Grid Layout with Bootstrap</title>
+  <!-- Bootstrap CSS -->
+  <link
+   rel="stylesheet"
+   href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <style>
+   /* Custom CSS for additional styling */
+   .custom-card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure overflow is hidden to prevent image overflow */
+   }
+
+   .custom-card:hover {
+    transform: translateY(-5px); /* Add translation effect on hover */
+   }
+
+   /* Custom background color */
+   .custom-bg {
+    background-color: #f3f4f6; /* You can change the color code as needed */
+   }
+
+   /* Responsive image styles */
+   .card-img-top {
+    width: 100%;
+    height: 200px; /* Set a fixed height for consistent image heights */
+    object-fit: cover; /* Ensure the image covers the entire container */
+   }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <h1 class="text-center my-4">Basic Responsive Grid Layout with Bootstrap</h1>
+   <div class="row">
+    <div class="col-lg-4 col-md-6">
+     <div class="card custom-card custom-bg mb-4">
+      <div class="card-image">
+       <img src="All-Crew.jpg" class="card-img-top" alt="Placeholder image" />
+      </div>
+      <div class="card-body">
+       <h5 class="card-title">Card Title 1</h5>
+       <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+     <div class="card custom-card custom-bg mb-4">
+      <div class="card-image">
+       <img src="Zoro2.jpg" class="card-img-top" alt="Placeholder image" />
+      </div>
+      <div class="card-body">
+       <h5 class="card-title">Card Title 2</h5>
+       <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+     <div class="card custom-card custom-bg mb-4">
+      <div class="card-image">
+       <img src="Luffy-1.jpg" class="card-img-top" alt="Placeholder image" />
+      </div>
+      <div class="card-body">
+       <h5 class="card-title">Card Title 3</h5>
+       <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       </p>
+      </div>
+     </div>
+    </div>
+    <!-- Additional 3 columns -->
+    <div class="col-lg-4 col-md-6">
+     <div class="card custom-card custom-bg mb-4">
+      <div class="card-image">
+       <img src="Zoro-Asura.jpg" class="card-img-top" alt="Placeholder image" />
+      </div>
+      <div class="card-body">
+       <h5 class="card-title">Card Title 4</h5>
+       <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+     <div class="card custom-card custom-bg mb-4">
+      <div class="card-image">
+       <img src="Gear5.jpg" class="card-img-top" alt="Placeholder image" />
+      </div>
+      <div class="card-body">
+       <h5 class="card-title">Card Title 5</h5>
+       <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+     <div class="card custom-card custom-bg mb-4">
+      <div class="card-image">
+       <img src="Luffy.png" class="card-img-top" alt="Placeholder image" />
+      </div>
+      <div class="card-body">
+       <h5 class="card-title">Card Title 6</h5>
+       <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ </body>
+</html>

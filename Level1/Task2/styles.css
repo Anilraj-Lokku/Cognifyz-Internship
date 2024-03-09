@@ -1,0 +1,21 @@
+.button-container {
+ display: flex;
+ justify-content: center; /* Center horizontally */
+ align-items: center; /* Center vertically */
+ height: 100vh; /* Make container full height of viewport */
+}
+
+button {
+ padding: 10px 20px;
+ font-size: 16px;
+ color: white;
+ border: none;
+ cursor: pointer;
+ background-image: linear-gradient(
+  to right,
+  #ff5f6d,
+  #ffc371
+ ); /* Gradient background */
+ border-radius: 5px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add border-radius and box-shadow for better visual appearance */
+}

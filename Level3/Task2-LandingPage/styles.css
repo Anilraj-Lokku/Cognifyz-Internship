@@ -1,0 +1,159 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f4f4f4;
+ color: #333;
+}
+
+.container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+/* Header Styles */
+header {
+ background-color: rgb(233, 13, 50);
+ color: #fff;
+ text-align: center;
+ padding: 20px 0;
+}
+
+header h1 {
+ margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+ background-color: #007bff;
+ padding: 10px 0;
+ text-align: center;
+}
+
+nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+nav ul li {
+ display: inline;
+ margin-right: 20px;
+}
+
+nav ul li a {
+ color: #fff;
+ text-decoration: none;
+}
+
+/* Main Section Styles */
+.main-section {
+ text-align: center;
+ padding: 50px 0;
+}
+
+.main-section h2 {
+ margin-bottom: 20px;
+}
+
+.main-section p {
+ font-size: 18px;
+ line-height: 1.5;
+}
+
+/* Call to Action Button Styles */
+.cta-button {
+ background-color: #28a745;
+ color: #fff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ text-decoration: none;
+ font-size: 18px;
+ transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+ background-color: #218838;
+}
+
+/* About Us Section Styles */
+.about-section {
+ background-color: #fff;
+ padding: 50px 0;
+}
+
+.about-section h3 {
+ margin-bottom: 20px;
+}
+
+.about-section p {
+ font-size: 16px;
+ line-height: 1.5;
+}
+
+/* Footer Styles */
+footer {
+ background-color: rgb(233, 13, 50);
+ color: #fff;
+ text-align: center;
+ padding: 20px 0;
+}
+
+footer p {
+ margin: 0;
+}
+
+footer a {
+ color: #fff;
+ text-decoration: none;
+}
+
+footer a:hover {
+ text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+ margin-top: 40px;
+ text-align: left;
+ padding: 20px;
+ background-color: #fff;
+ border-radius: 5px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+ margin-bottom: 10px;
+ color: #333;
+}
+
+.section ul {
+ list-style-type: disc;
+ margin-left: 20px;
+}
+
+.section li {
+ margin-bottom: 10px;
+}
+
+.section p {
+ margin-top: 10px;
+}
+
+/* Buttons */
+.btn {
+ background-color: #007bff;
+ color: #fff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ text-decoration: none;
+ font-size: 16px;
+ transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+ background-color: #0056b3;
+}

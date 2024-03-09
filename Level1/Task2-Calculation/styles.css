@@ -1,0 +1,45 @@
+body {
+ background: linear-gradient(to right, #ff9a9e, #fecfef);
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0;
+}
+
+.calculator {
+ width: 300px;
+ padding: 20px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ background-color: #f9f9f9;
+}
+
+input[type="number"] {
+ width: calc(100% - 20px);
+ margin-bottom: 10px;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ font-size: 16px;
+}
+
+button {
+ width: calc(50% - 5px);
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ font-size: 16px;
+ cursor: pointer;
+ background: linear-gradient(to right, #ff9a9e, #fecfef);
+ color: #fff;
+}
+
+button:nth-child(odd) {
+ margin-right: 10px;
+}
+
+#result {
+ margin-top: 10px;
+}
